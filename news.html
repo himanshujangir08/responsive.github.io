@@ -1,0 +1,363 @@
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World Bicycle</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/x-icon" href="/images/myimage13.jpg.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header class="header sticky">
+      <h3 class="logo">
+        <a href="/index.html"> <img src="/images/myimage14.jpg.png" alt="" /></a>
+      </h3>
+
+      <nav class="nav">
+        <ul class="nav1-list">
+          <li><a class="nav2-link" href="/index.html">Home</a></li>
+          <li><a class="nav2-link" href="/about.html">About</a></li>
+          <li><a class="nav2-link" href="/our cycle.html">Our Cycle</a></li>
+          <!-- <li><a class="nav2-link" href="#">Shop</a></li> -->
+          <li><a class="nav2-link" href="/news.html">News</a></li>
+          <li><a class="nav2-link" href="/contact.html">Contact Us</a></li>
+          <li>
+            <a class="nav2-link" type="button" onclick="myFunction()" href="#"
+              >Dark Mode</a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <nav class="icons">
+        <ul class="icons-list">
+          <li>
+            <a class="icons-link" href="#"><i class="fa-solid fa-user"></i></a>
+          </li>
+          <!-- <li>
+            <a class="icons-link" href="#"
+              ><i class="fa-solid fa-truck-fast"></i
+            ></a>
+          </li> -->
+        </ul>
+      </nav>
+
+      <div class="mobile-nav-btn">
+        <ion-icon name="menu-outline" class="mobile-icon"></ion-icon>
+        <ion-icon name="close-outline" class="mobile-icon"></ion-icon>
+      </div>
+    </header>
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="/images/myimage3.jpg.jpg"
+            class="img-fluid d-block w-100 mx-auto"
+            alt="..."
+          />
+          <div class="carousel-caption d-block my-5 text-dark">
+            <h1>Top Selling</h1>
+            <h3>
+              It is a long established fact that a reader will be distracted by
+              the readable content!
+            </h3>
+            <button
+              type="button"
+              class="btn btn-lg btn-outline-warning"
+              style="padding: 10px 20px; font-size: 1.5rem"
+            >
+              Shop Now
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/images/myimage4.jpg.jpg"
+            class="img-fluid d-block w-100 mx-auto"
+            alt="..."
+          />
+          <div class="carousel-caption d-block my-5">
+            <h1>Top Selling</h1>
+            <h3>
+              It is a long established fact that a reader will be distracted by
+              the readable content!
+            </h3>
+            <button
+              type="button"
+              class="btn btn-lg btn-outline-warning"
+              style="padding: 10px 20px; font-size: 1.5rem"
+            >
+              Shop Now
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/images/myimage2.jpg.jpg"
+            class="img-fluid d-block w-100 mx-auto"
+            alt="..."
+          />
+          <div class="carousel-caption d-block my-5">
+            <h1>Top Selling</h1>
+            <h3>
+              It is a long established fact that a reader will be distracted by
+              the readable content!
+            </h3>
+            <button
+              type="button"
+              class="btn btn-lg btn-outline-warning"
+              style="padding: 10px 20px; font-size: 1.5rem"
+            >
+              Shop Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="news-content container">
+        <div class="heading">
+          <h1>
+            <span style="border-bottom: 2px solid; font-size: 5rem">News</span>
+          </h1>
+        </div>
+        <br />
+        <hr />
+        <div class="cycle-speech my-1 container">
+          <img
+            src="/images/myimage5.jpg.jpg"
+            class="float-end rounded-3"
+            style="width: 300px; height: 200px"
+          />
+  
+          <p class="" style="font-size: 2rem">
+            A mountain bike (MTB[1]) or mountain bicycle is a bicycle designed for
+            off-road cycling. Mountain bikes share some similarities with other
+            bicycles, but incorporate features designed to enhance durability and
+            performance in rough terrain, which makes them heavier, more complex
+            and less efficient on smooth surfaces.[2] These typically include a
+            suspension fork, large knobby tires, more durable wheels, more
+            powerful brakes, straight, extra wide handlebars to improve balance
+            and comfort over rough terrain, and wide-ratio gearing optimised for
+            topography and application (e.g., steep climbing or fast descending).
+            Rear suspension is ubiquitous in heavier-duty bikes and now common
+            even in lighter bikes. Dropper posts can be installed to allow the
+            rider to quickly adjust the seat height[3] (an elevated seat position
+            is more effective for pedaling, but poses a hazard in aggressive
+            maneuvers).
+          </p>
+        </div>
+        <br />
+  
+        <div class="avtar container">
+          <div class="row">
+            <div class="col-lg-4">
+              <img
+                src="/images/myimage12.jpg.webp"
+                style="width: 300px; height: 200px"
+                alt=""
+              />
+              <h1 class="fw-normal" style="font-size: 3rem">Keith Bontrager</h1>
+              <p style="font-size: 2rem">
+                In 1978 Bontrager became attracted to cycling and in 1979 built
+                his first road bike. With his motocross background he was
+                attracted to mountain bike cycling. In 1980 he built his first
+                mountain bike frame and founded Bontrager Cycles in Sunnyvale,
+                California.
+              </p>
+              <p>
+                <button
+                  type="button"
+                  class="btn btn-lg btn-outline-warning"
+                  style="padding: 10px 20px; font-size: 1.5rem"
+                >
+                  View details>>
+                </button>
+              </p>
+            </div>
+            <div class="col-lg-4">
+              <img
+                src="/images/myimage11.jpg.jpg"
+                style="width: 300px; height: 200px"
+                alt=""
+              />
+              <h1 class="fw-normal" style="font-size: 3rem">Joe Breeze</h1>
+              <p style="font-size: 2rem">
+                Breeze, a road bike racer through the 1970s, was among the fastest
+                downhill racers at Repack, mountain biking's seminal race held
+                west of Fairfax, California. He won 10 of the 24 Repack races,
+                which took place between 1976 and 1984.Breeze grew up in Mill
+                Valley.
+              </p>
+              <p>
+                <button
+                  type="button"
+                  class="btn btn-lg btn-outline-warning"
+                  style="padding: 10px 20px; font-size: 1.5rem"
+                >
+                  View details>>
+                </button>
+              </p>
+            </div>
+            <div class="col-lg-4">
+              <img
+                src="/images/myimage15.jpg.jpg"
+                style="width: 250px; height: 200px"
+                alt=""
+              />
+              <h2 class="fw-normal" style="font-size: 3rem">John Tomac</h2>
+              <p style="font-size: 2rem">
+                In 1986, Tomac made two significant decisions: he relocated to
+                Southern California, and left BMX competition in favour of
+                mountain bike racing. He continued to ride for Mongoose.Tomac
+                first participated in cycle racing at the age of seven.
+              </p>
+              <p>
+                <button
+                  type="button"
+                  class="btn btn-lg btn-outline-warning"
+                  style="padding: 10px 20px; font-size: 1.5rem"
+                >
+                  View details>>
+                </button>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div class="footer-content">
+        <div class="credits">
+            <div class="container">
+                <div class="row">
+                  <div class="col col-lg-7">
+                    <h4>Contact No:</h4>
+                  </div>
+                  <div class="col-md-auto"></div>
+                  <div class="col col-lg-2">
+                    <h4>
+                     +91 9057075409
+                    </h4>
+                  </div>
+                </div>
+                <hr>
+              </div>
+          <div class="container">
+            <div class="row">
+              <div class="col col-lg-7">
+                <h4>Get connected with us on social networks:</h4>
+              </div>
+              <div class="col-md-auto"></div>
+              <div class="col col-lg-2">
+                <h4>
+                  <a href=""><i class="icon fa-brands fa-facebook mx-2"></i></a>
+                  <a href=""><i class="icon fa-brands fa-instagram mx-2"></i></a>
+                  <a href=""><i class="icon fa-brands fa-google mx-2"></i></a>
+                  <a href=""><i class="icon fa-brands fa-linkedin mx-2"></i></a>
+                  <a href=""><i class="icon fa-brands fa-twitter mx-2"></i></a>
+                  <a href=""><i class="icon fa-brands fa-github mx-2"></i></a>
+                </h4>
+              </div>
+            </div>
+          </div>
+          &copy;<a
+            href="https://mail.google.com/mail/u/0/#inbox"
+            class="link-warning"
+          >
+            himanshujangir124@gmail.com</a
+          >
+          <strong><span>Himanshu</span></strong
+          >. All Rights Reserved
+          <br />
+          Designed by
+          <a
+            href="https://www.w3schools.com/html/html_intro.asp"
+            class="link-warning"
+            target="_blank"
+            >HTML</a
+          >,<a
+            href="https://www.w3schools.com/css/css_intro.asp"
+            class="link-warning"
+            target="_blank"
+            >CSS</a
+          >
+          Or
+          <a
+            href="https://getbootstrap.com/docs/5.3/getting-started/introduction/"
+            class="link-warning"
+            target="_blank"
+            >Bootstrap</a
+          >
+        </div>
+      </div>
+      <script
+        type="module"
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+        nomodule
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      ></script>
+      <script src="./index.js"></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"
+      ></script>
+    </body>
+  </html>
